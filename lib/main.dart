@@ -12,6 +12,11 @@ import 'firebase_options.dart';
 var w;
 var h;
 
+
+testFunction(){
+  print("hello world");
+}
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
